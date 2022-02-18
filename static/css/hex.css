@@ -1,0 +1,133 @@
+/*navbar items*/
+.main-header {
+    display: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+}
+.main-nav-container {
+    display: inline-block;
+    padding: 10px;
+}
+.nav-container-items {
+    display: inline-block;
+    padding: 10px;
+}
+.nav-container-items, a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.bts-color-changer a {
+    color: black;
+}
+.nav-container-items a:hover {
+    color: black;
+}
+.bts-color-changer a:hover {
+    color: burlywood;
+}
+
+/* body section */
+
+.box-of-colors {
+    border: 1px solid black;
+    width: 30%;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 35%;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+
+.color-button {
+    padding: auto;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+/* counter project css */
+
+.button-container-plus {
+    text-align: center;
+}
+
+.button-container-plus h3, span {
+    color: slategrey;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button-container-plus button {
+    margin-top: 10px;
+    border-color: slategrey;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* review section */
+
+.review-section {
+    border: none;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    margin-left: 30%;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.review-img img {
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+.button-container button, i {
+    border: none;
+}
+
+.btn-info-of {
+    margin-top: 15px;
+}
+
+/* hero section */
+
+.hero-container {
+    border: none;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    width: 30%;
+    margin-left: 30%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 16px 20px rgb(0 0 0 / 20%);
+    
+}
+
+.hero-title, .hero-button {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
